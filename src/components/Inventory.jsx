@@ -57,7 +57,7 @@ export default function Inventory(props) {
                             {
                                 data.extras && data.extras.length > 0 &&
 
-                                <Stack direction="row" spacing={8} ml = '4rem'>
+                                <Stack direction="row" spacing={8} ml = '8rem'>
                                     {
                                         data.extras.map((extra, idx) => <Checkbox key={idx} style={{ fontFamily: 'Mulish, sans-serif' }} color="#666666" fontWeight='600' fontSize='18px'>{extra.name} : {extra.price}AUD</Checkbox>)
                                     }
