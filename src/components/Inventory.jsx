@@ -55,7 +55,7 @@ export default function Inventory(props) {
                                 </Stack>
                             </RadioGroup>
                             {
-                                data.extras.length > 0 &&
+                                data.extras && data.extras.length > 0 &&
 
                                 <Stack direction="row" spacing={8}>
                                     {
